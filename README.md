@@ -1,1 +1,1 @@
-# gizmo-ai
+[![Hi, i'm Gizmo.](/images/gizmorbg.png)]
