@@ -1,1 +1,1 @@
-[![Hi, i'm Gizmo.](/images/gizmorbg.png)]
+![Hi, i'm Gizmo.](/images/gizmorbg.png)
