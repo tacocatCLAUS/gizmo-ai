@@ -28,7 +28,7 @@ Running the code is pretty simple once you have all the necessary libraries inst
 
 **Setup:**
 
-Go to releases and download *build.zip* then extract the zip and then enter your terminal.  Run ```cd build``` and then ```pip install -r requirements.txt``` then edit gizmo.py
+First, [download the repo](https://github.com/tacocatCLAUS/gizmo-ai/archive/refs/heads/main.zip), extract the zip, and then enter your terminal.  Run ```cd main``` and then ```pip install -r requirements.txt``` then edit gizmo.py
 ```
 # Configuration
 openai = False # Use OpenAI instead of Ollama model.
@@ -42,15 +42,15 @@ userAgent = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.
 openai_api_key = ''
 tavily_api_key = ''
 ```
-All of the config variables are supported except tavily_api which is still being implemented. 
+All of the config variables are supported, except for tavily_api, which is still being implemented. 
 
 You can get your tavily api from [their website](https://app.tavily.com/).
 And the openai api (optional) from [their website](https://platform.openai.com/).
 
-Now it is time to **setup to the model**.
+Now it is time to **set the model**.
 
-Run ```cd setup```, ```ollama pull gemma3:1b``` then ```bash llm-maker.sh``` this will make the custom chatbot. If you want to edit the models personality edit the system.txt file in the setup directory.
+Run ```cd setup```, ```ollama pull gemma3:1b``` then ```bash llm-maker.sh``` This will make the custom chatbot. If you want to edit the model's personality, edit the system.txt file in the setup directory.
 
-Now that everything is setup, you can leave the setup directory with ```cd ..``` and then run ```python gizmo.py``` Now you can interact with gizmo!
+Now that everything is set up, you can leave the setup directory with ```cd ..``` and then run ```python gizmo.py``` Now you can interact with gizmo!
 
 
