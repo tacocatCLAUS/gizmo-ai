@@ -28,8 +28,7 @@ Running the code is pretty simple once you have all the necessary libraries inst
 
 **Setup:**
 
-First, [download the repo](https://github.com/tacocatCLAUS/gizmo-ai/archive/refs/heads/main.zip), extract the zip, and then enter your terminal.  Run ```cd main``` and then ```pip install -r requirements.txt``` then then ```pip install 
-``` edit gizmo.py
+First, [download the repo](https://github.com/tacocatCLAUS/gizmo-ai/archive/refs/heads/main.zip), extract the zip, and then enter your terminal.  Run ```cd main``` and then ```pip install -r requirements.txt``` then then ```pip install langchain-huggingface``` now edit gizmo.py
 ```
 # Configuration
 openai = False # Use OpenAI instead of Ollama model.
