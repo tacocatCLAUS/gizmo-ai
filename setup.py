@@ -3,7 +3,6 @@ import platform
 import sys
 import os
 from Libraries.config_manager import set_openai, set_hackclub, set_ollama, set_rag_model, set_openai_api_key, get_openai_api_key, enable_voice, enable_devmode, set_db_clear, enable_mcp, get_config, update_config
-from Libraries.filepicker import select_config_dir
 from model.modelbuilder import build
 # Define the virtual environment name and the library to install
 VENV_NAME = ".genv"
