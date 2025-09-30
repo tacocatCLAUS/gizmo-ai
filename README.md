@@ -4,11 +4,16 @@ Gizmo is your local AI assistant. Claude code is over 33,000 ✩ , but not a bit
 
 This has been coded around and works best with the wizard LLM Ollama model. All api connections are an afterthought and do not work perfectly (no mcp). Changing the ollama model might have side effects as well. If you want to suggest changes and support for different models, look into the model folder.
 
+#### SoM 2025
+When I got started on this project at the beginning of the summer, I didn't think it would get to the level of complexity that it is at right now. For this project to work as intended, you need to install Ollama, one 500 MB model, one voice model, and one 5 GB model. You need to install over 3 GB of dependencies, and on top of that, you need sufficient hardware to run it. What was going to be a light, easily installed project for my Raspberry Pi is now running on a 3090-powered server. What I am saying is this isn't the easiest project to test out on your own. Even still, this project has been extremely rewarding for me, even if I don't receive anything for my hours put into it. Please watch the demo video for the project that I have spent so much time creating. Thank You. -f1shticks
+
+
+
 ## Installing / Getting started
 
-Installing is easy. Just install [Ollama](https://ollama.com/),
+Install [Ollama](https://ollama.com/),
 and either download the release or clone the repo!
-Keep in mind that this project takes up about 5 GB of space. If you are demoing, just delete the repo and uninstall the pip packages.
+Keep in mind that this project takes up about 8 GB of space.
 
 ```shell
 git clone https://github.com/tacocatCLAUS/gizmo-ai.git
