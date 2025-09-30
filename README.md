@@ -47,9 +47,6 @@ pip install -r model/requirements.txt
 
 ## Configuration
 
-Here you should write what are all of the configurations a user can enter when
-using the project.
-
 ```json
 {
   "openai": false,
