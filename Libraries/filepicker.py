@@ -22,8 +22,8 @@ def select_file():
             file_path = input("File path: ")
             if not os.path.isfile(file_path):
                 print("Provided path is not a valid file. Try again.")
-        else:
-            break
+            else:
+                break
             
     return file_path
 
