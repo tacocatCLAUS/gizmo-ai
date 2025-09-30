@@ -39,7 +39,6 @@ pip install -r model/requirements.txt
 Here you should write what are all of the configurations a user can enter when
 using the project.
 
-<<<<<<< HEAD
 ```json
 {
   "openai": false,
@@ -54,7 +53,6 @@ using the project.
   "rag_model": "none"
 }
 ```
-=======
 **Setup:**
 
 First, [download the repo](https://github.com/tacocatCLAUS/gizmo-ai/archive/refs/heads/main.zip), extract the zip, and then enter your terminal.  Run ```cd main``` and then ```pip install -r requirements.txt``` then then ```pip install langchain-huggingface``` now edit gizmo.py
