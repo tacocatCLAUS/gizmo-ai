@@ -7,7 +7,13 @@ This has been coded around and works best with the wizard LLM Ollama model. All 
 #### SoM 2025
 When I started this project at the beginning of the summer, I didn't think it would reach the level of complexity it has now. For this project to work as intended, you need to install Ollama, one 500 MB model, one voice model, and one 5 GB model. You need to install over 3 GB of dependencies, and on top of that, you need sufficient hardware to run it. What was going to be a light, easily installed project for my Raspberry Pi is now running on a 3090-powered server. What I am saying is this isn't the easiest project to test out on your own. Even still, this project has been extremely rewarding for me, even if I don't receive anything for my hours put into it. Please watch the demo video for the project that I have spent so much time creating. Thank You. -f1shticks
 
-<iframe style="border:1px #FFFFFF hidden" src="https://github.com/user-attachments/assets/be06a87e-9b0c-4743-85e4-7ba073143571" title="demo" width="100%" height="600px" scrolling="no" frameborder="no" allow=""></iframe>
+---
+
+<div align="center" width="600px">
+  <video width="600px" src="https://github.com/user-attachments/assets/be06a87e-9b0c-4743-85e4-7ba073143571"></video>
+</div>
+
+---
 
 ## Installing / Getting started
 
