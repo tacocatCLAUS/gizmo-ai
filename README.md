@@ -9,7 +9,7 @@ When I started this project at the beginning of the summer, I didn't think it wo
 
 ---
 
-<div align="center" width="600px">
+<div align="center" width="600px" controls autoplay>
   <video width="600px" src="https://github.com/user-attachments/assets/be06a87e-9b0c-4743-85e4-7ba073143571"></video>
 </div>
 
