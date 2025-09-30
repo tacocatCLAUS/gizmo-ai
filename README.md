@@ -12,7 +12,7 @@ Keep in mind that this project takes up about 5 GB of space. If you are demoing,
 
 ```shell
 git clone https://github.com/tacocatCLAUS/gizmo-ai.git
-cd gizmo
+cd gizmo-ai
 python setup.py
 python gizmo.py
 ```
