@@ -1,28 +1,28 @@
 ![Hi, i'm Gizmo.](/images/gizmorbg.png)
 ---
-Gizmo is your local ai assistant. Claude code is at over 33,000 ✩ but not a bit is local. Gizmo is a completely-local, mcp-enabled, personal assistant that can even talk! Just come with good hardware and some MCP servers. Youll be able to tell it to turn off your light in no time!
+Gizmo is your local AI assistant. Claude code is over 33,000 ✩ , but not a bit is local. Gizmo is a completely local, MCP-enabled, personal assistant that can even talk! Just come with good hardware and some MCP servers. You'll be able to tell it to turn off your light in no time!
 
-This has been coded around and works the best with the wizard llm ollama model. All api connections are an afterthought and do not work perfectly (no mcp). Changing the ollama model might have side effects as well. If you wnat to suggest changes and supports for different models look into the model folder.
+This has been coded around and works best with the wizard LLM Ollama model. All api connections are an afterthought and do not work perfectly (no mcp). Changing the ollama model might have side effects as well. If you want to suggest changes and support for different models, look into the model folder.
 
 ## Installing / Getting started
 
 Installing is easy. Just install [Ollama](https://ollama.com/),
 and either download the release or clone the repo!
-Keep in mind that this project takes up about 5 GB of space. If you are demoing just delete the repo and uninstall the pip packages.
+Keep in mind that this project takes up about 5 GB of space. If you are demoing, just delete the repo and uninstall the pip packages.
 
 ```shell
-git clone https://github.com/tacocatCLAUS/gizmo.git
+git clone https://github.com/tacocatCLAUS/gizmo-ai.git
 cd gizmo
 python setup.py
 python gizmo.py
 ```
 
-This will install everything necessary and have you set the configuration.
-Keepbin mind that this scriptbis still in development so you should go over the config after it is run.
+This will install everything necessary and set up the configuration for you.
+Keep in mind that this script is still in development, so you should review the config after it is run.
 
 ## Developing
 All you need to do is install the project as shown above.
-Running setup.py will install from model/requirements.txt but if you want to do this yourself just run: 
+Running setup.py will install from model/requirements.txt, but if you want to do this yourself, just run: 
 ```shell
 pip install -r model/requirements.txt
 ```
